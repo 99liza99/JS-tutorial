@@ -141,3 +141,38 @@ function getAgeByGender(gender){
 var x = getAgeByGender('w');
 console.log(x);
 
+
+
+function act(x,y) {
+
+  console.log(x-y)
+
+}
+act(30,20);
+
+function calculator(num1,num2,y) {
+   if(y=='+') {
+    console.log(num1+num2)
+   }
+   else if(y=='-') {
+    console.log(num1-num2)
+   }
+   else if(y=='/') {
+    console.log(num1/num2)
+   }
+   else if(y=='*') {
+    console.log(num1*num2)
+   }
+}
+calculator(4,3,'+')
+
+function divisibleBy(arr, par) {
+    for (let i = 0; i<arr.length; i++) {
+        if (arr[i] % par == 0) {
+            console.log(arr[i])
+        }
+    }
+}
+
+divisibleBy([1, 2, 3, 4, 5, 6,8,12,13,16], 3);
+
