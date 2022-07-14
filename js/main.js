@@ -742,6 +742,19 @@ class User_1 {
 }
 
 
+function number5(n) {
+    for(let i=0; i<n; i++)
+    {
+        console.log(i+1)
+    }
+}
+
+number5(10);
+
+function showMessage() {
+    console.log("Massage")
+}
+showMessage();
 
 
 
